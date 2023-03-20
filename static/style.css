@@ -1,0 +1,112 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(194, 194, 194);
+}
+
+/* create todo list form styling */
+
+
+
+#create-todo-form{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+}
+
+#create-todo-form > * {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 11px;
+    border: none;
+}
+
+#create-todo-btn{
+    background: rgb(248, 113, 64);
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(4, 245, 165);
+}
+
+#create-todo-btn:hover{
+    background: rgb(238, 65, 2);
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(4, 245, 165);
+}
+
+#create-todo-form .button{
+    text-align: left;
+}
+
+#create-todo-form .button:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: aqua;
+    border: none;
+}
+
+
+
+/* TODO List styling */
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    background: lightcyan;
+    width: 70vw;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.todo-item-details{
+    flex-grow: 1;
+    padding: 10 px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-item-details > * {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.todo-item-title {
+    flex-grow: 1;
+}
+
+.todo-item-delete {
+    padding: 10px;
+    text-align: center;
+    background: rgb(243, 77, 17);
+}
+
+.todo-item-category{
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.dim-text {
+    color: lightgrey;
+}
+
+
+
+/* change color according to the category */
+
+.category-school{background: orange;}
+.category-work{background: lightgreen;}
+.category-study{background: lightblue;}
+.category-personal{background: lightcoral;}
+
+
+
+
